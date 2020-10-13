@@ -1,0 +1,127 @@
+html, body {
+	margin: 0;
+	padding: 0;
+}
+
+.bboauth-wrapper {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	overflow: auto;
+	white-space: nowrap;
+	text-align: center;
+	font-size: 0;
+}
+
+.bboauth-wrapper:before {
+	height: 100%;
+	display: inline-block;
+	vertical-align: middle;
+	content: '';
+}
+
+.bboauth-container {
+	display: inline-block;
+	white-space: normal;
+	vertical-align: middle;
+	text-align: left;
+	max-width: 348px;
+	min-width: 232px;
+	border: 1px solid #ccc;
+	padding: 10px 0 0 10px;
+	border-radius: 3px;
+	font-size: 0;
+}
+
+.bboauth-container .logo {
+	display: block;
+	width: calc(100% - 10px);
+	margin-bottom: 15px;
+	background: url("https://buildbox.app/ru/ru/upload/buildbox/logo_white2.png") no-repeat center top;
+	height: 70px;
+	background-size: contain;
+	outline: none;
+}
+
+.bboauth-button {
+	box-sizing: border-box;
+	display: inline-block;
+	width: 48px;
+	height: 48px;
+	line-height: 1;
+	padding: 11px 5px;
+	background-color: #ccc;
+	margin: 0 10px 10px 0;
+	font-size: 26px;
+	text-align: center;
+	color: #fff;
+	border-radius: 5px;
+	-webkit-transition: all 0.5s ease;
+	-moz-transition: all 0.5s ease;
+	-o-transition: all 0.5s ease;
+	transition: all 0.5s ease;
+	outline: none;
+}
+.bboauth-button:hover,
+.bboauth-button:active {
+	color: #fff;
+}
+
+.bboauth-button-google:hover,
+.bboauth-button-google:active {
+	background-color: #dd4b39;
+}
+
+.bboauth-button-yandex:hover,
+.bboauth-button-yandex:active {
+	background-color: #f70000;
+}
+
+.bboauth-button-vk:hover,
+.bboauth-button-vk:active {
+	background-color: #44678d;
+}
+
+.bboauth-button-mailru:hover,
+.bboauth-button-mailru:active {
+	background-color: #1589db;
+}
+
+.bboauth-button-facebook:hover,
+.bboauth-button-facebook:active {
+	color: rgb(59, 91, 152);
+}
+
+.bboauth-light,
+.bboauth-light:hover,
+.bboauth-light:active {
+	background-color: transparent;
+	border: 1px solid #ccc;
+	color: #ccc;
+}
+
+.bboauth-button-google.bboauth-light:hover,
+.bboauth-button-google.bboauth-light:active {
+	color: #dd4b39;
+	border-color: #dd4b39;
+}
+
+.bboauth-button-yandex.bboauth-light:hover,
+.bboauth-button-yandex.bboauth-light:active {
+	color: #f70000;
+	border-color: #f70000;
+}
+
+.bboauth-button-vk.bboauth-light:hover,
+.bboauth-button-vk.bboauth-light:active {
+	color: #44678d;
+	border-color: #44678d;
+}
+
+.bboauth-button-mailru.bboauth-light:hover,
+.bboauth-button-mailru.bboauth-light:active {
+	color: #1589db;
+	border-color: #1589db;
+}

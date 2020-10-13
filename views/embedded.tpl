@@ -1,0 +1,1 @@
+{{range .buttons}}<a class="bboauth-button {{.AClass}} bboauth-button-{{.Vendor}}" href="javascript:;" onclick="bblogin('{{.Redirect}}', '{{.Vendor}}')" title="{{.Title}}"><i class="{{.IconClass}}"></i></a>{{end}}

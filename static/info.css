@@ -1,0 +1,24 @@
+body {
+	padding: 10px;
+}
+
+xmp {
+	border: 1px dashed #634F36;
+	background: #fffff5;
+	font-family: "Courier New", Courier, monospace;
+	padding: 7px;
+	font-size: 80%;
+	margin: 0 0 1em;
+}
+/*
+xmp {
+	background: #f0f0f0;
+	padding: 7px;
+	margin: 0 0 1em;
+}*/
+
+code {
+	border: 1px dashed #634F36;
+	background: #fffff5;
+	padding: .2ex .5ex;
+}
